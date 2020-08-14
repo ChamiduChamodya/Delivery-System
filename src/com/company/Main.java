@@ -27,17 +27,13 @@ public class Main {
         System.out.println("Vertex      Distance from Source");
         for (int j = 0; j < V; j++) {
             temp=arr[j][0];
-            if (local[temp]==local[j]) {
-                System.out.println(local[j] + "       tt      " + dist[j]);
-//                if (dist[j] < min) {
+                System.out.println(local[temp] + "       tt      " + dist[j]);
                     min = dist[j];
                     loca = local[temp];
-
-                }
-//            }
+            System.out.println("************************************************");
+            System.out.println("The "+ (j+1) +" nearest location is :" + loca+" and the distance from source is " + min +"Km");
         }
-        System.out.println("************************************************");
-        System.out.println("The First Order is from :" + loca+" and the distance from source is " + min +"Km");
+
     }
     void dijkstra(int graph[][], int src,int arr[][])
     {
@@ -52,10 +48,10 @@ public class Main {
             int u = minDistance(dist, sptSet);
             sptSet[u] = true;
             for (int v = 0; v < V; v++)
-                if (!sptSet[v] && graph[u][v] != 0 &&
-                        dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v])
-                    dist[v] = dist[u] + graph[u][v];
-        }
+        if (!sptSet[v] && graph[u][v] != 0 &&
+                dist[u] != Integer.MAX_VALUE && dist[u] + graph[u][v] < dist[v])
+            dist[v] = dist[u] + graph[u][v];
+    }
 
         printSolution(dist, V,arr);
     }
@@ -80,11 +76,6 @@ public class Main {
     public static void main(String[] args) {
         int [][] twoD_Arr= new int [][] {{0,400},{1,200},{2,1400},{3,100},{4,1545},{5,1300},{6,1700},{7,500},{8,1900}};
         sort2D(twoD_Arr, 1);
-
-//        System.out.println("arrays after sorting:");
-//        for(int i=0; i<twoD_Arr.length; i++){
-//            System.out.println(Arrays.toString(twoD_Arr[i]));
-//        }
 
         int graph[][] = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
                 { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
