@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e641760b-31b1-4de1-a50f-d2aa622ee645" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dlive/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dlive/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,34 +82,52 @@
       <workItem from="1596614861683" duration="4710000" />
       <workItem from="1596727011131" duration="3471000" />
       <workItem from="1597329421034" duration="2977000" />
-      <workItem from="1597374324832" duration="2388000" />
+      <workItem from="1597374324832" duration="2630000" />
+      <workItem from="1597419350134" duration="740000" />
+      <workItem from="1600013337480" duration="60000" />
     </task>
+    <task id="LOCAL-00001" summary="23132">
+      <created>1597376838824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597376838824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="23132" />
+    <option name="LAST_COMMIT_MESSAGE" value="23132" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596558183891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="528" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1596558183891" />
-    <state width="1493" height="512" key="GridCell.Tab.0.bottom" timestamp="1597375410750">
+    <state x="393" y="5" key="CommitChangelistDialog2" timestamp="1597376834804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="512" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597375410750" />
-    <state width="1493" height="512" key="GridCell.Tab.0.center" timestamp="1597375410749">
+    <state x="393" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597376834804" />
+    <state width="1493" height="512" key="GridCell.Tab.0.bottom" timestamp="1597376854431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="512" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597375410749" />
-    <state width="1493" height="512" key="GridCell.Tab.0.left" timestamp="1597375410749">
+    <state width="1493" height="512" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597376854431" />
+    <state width="1493" height="512" key="GridCell.Tab.0.center" timestamp="1597376854431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="512" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597375410749" />
-    <state width="1493" height="512" key="GridCell.Tab.0.right" timestamp="1597375410750">
+    <state width="1493" height="512" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597376854431" />
+    <state width="1493" height="512" key="GridCell.Tab.0.left" timestamp="1597376854431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="512" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597375410750" />
+    <state width="1493" height="512" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597376854431" />
+    <state width="1493" height="512" key="GridCell.Tab.0.right" timestamp="1597376854431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="512" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597376854431" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1596556846158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -132,9 +148,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597374799274" />
-    <state x="309" y="48" key="com.intellij.ide.util.TipDialog" timestamp="1597374335306">
+    <state x="309" y="48" key="com.intellij.ide.util.TipDialog" timestamp="1600013347748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="309" y="48" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597374335306" />
+    <state x="309" y="48" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600013347748" />
+    <state x="209" y="32" key="new project wizard" timestamp="1600013406145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600013406145" />
   </component>
 </project>
